@@ -104,7 +104,18 @@ hr {
 
 .arrow-container {
     padding: 10px;
-    margin: 10px
+    margin: 10px;
+    justify-content: space-around;
+}
+.left-arrow {
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+}
+.right-arrow {
+    background-color: rgba(0, 0, 0, 0.351);
+    border-radius: 50%;
+    margin: 5px;
 }
 
 .user-logged-in {
