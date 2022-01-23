@@ -293,12 +293,12 @@ a {
         align-items: center;
         justify-content: space-around;
         border-radius: 4px;
-        background: #282828;
+        background: #28282843;
         display: flex;
         cursor: pointer;
     }
     .suggest-song-item:hover {
-        background: #181818;
+        background: #161616;
 
     }
     .suggest-song-item-min-display {
