@@ -21,6 +21,7 @@ a {
 }
 
 .left-sidebar-nav-ul {
+    padding: 10px;
     background-color: black;
     display: block;
     width: 250px;
@@ -42,11 +43,9 @@ a {
 }
 .search-icon {
     width: 35px;
-    background-color: black;
 }
 .library-icon {
     width: 35px;
-    background-color: black;
 }
 .create-playlist-icon {
     width: 35px;
@@ -71,40 +70,25 @@ a {
     align-items: center;
     cursor: pointer;
 }
-.li-home:hover {
-    color: white;
-}
 .li-search {
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-.li-search:hover {
-    color: white;
 }
 .li-library {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.li-library:hover {
-    color: white;
-}
 .li-create-playlist {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.li-create-playlist:hover {
-    color: white;
-}
 .li-liked-pages {
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-.li-liked-pages:hover {
-    color: white;
 }
 .nav-container {
     min-height: 100%;
@@ -376,4 +360,15 @@ a {
         justify-content: space-between;
         align-items: center;
     
+    }
+    .icon-media-player-settings {
+        height: 25px;
+        width: 25px;
+        color: rgba(255, 255, 255, 0.644);
+    }
+
+    .icon-hover:hover {
+        color: white;
+        transform: scale(1.1);
+        -webkit-transition: all 300ms ease;
     }
