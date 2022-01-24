@@ -335,3 +335,45 @@ a {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+
+
+/*
+    bottom media playet
+*/
+
+    .add-song-to-library-icon {
+        background-color: black;
+    }
+
+    .song-playing-now-container {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        bottom:0cm
+    }
+
+    .media-player-play-icon {
+        display: inline;
+        border-radius: 50%;
+        -webkit-transition: all 300ms ease;
+    }
+    .media-player-play-icon:hover {
+        transform: scale(1.1);
+    }
+
+    .music-player-extra-settings {
+        display: flex;
+        justify-content: space-around;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .song-playing-now-container {
+        justify-content: space-between;
+        align-items: center;
+    
+    }
