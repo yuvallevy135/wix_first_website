@@ -204,6 +204,8 @@ a {
     display: inline;
     background-color: #1db954;
     border-radius: 50%;
+    -webkit-transition: all 600ms ease;
+
     }
    .last-heard-songs-item-container {
         display: flex;
@@ -216,12 +218,14 @@ a {
         font-size: 15px;
         width: 300px;
         cursor: pointer;
+        display: flex;
+        flex-direction: row;
     }
-   .last-heard-songs-item-container {
-       display: flex;
-       flex-direction: row;
-       /* justify-content: space-between; */
-   }
+
+    .last-heard-songs-item-container:hover {
+        background-color: rgba(0, 0, 0, 0.701);
+        -webkit-transition: all 600ms ease;
+    }
    .song-name-container {
        display: flex;
        flex-direction: row;
@@ -308,6 +312,7 @@ a {
     }
     .suggest-song-item:hover {
         background: #161616;
+        -webkit-transition: all 500ms ease;
 
     }
     .suggest-song-item-min-display {
