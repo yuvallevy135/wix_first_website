@@ -143,11 +143,14 @@ a {
     background-color: black;
     border-radius: 50%;
     margin: 5px;
+    cursor: pointer;
 }
 .right-arrow {
     background-color: rgba(0, 0, 0, 0.351);
     border-radius: 50%;
     margin: 5px;
+    cursor: not-allowed;
+
 }
 
 .user-logged-in {
