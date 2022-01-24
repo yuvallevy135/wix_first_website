@@ -198,11 +198,13 @@ a {
 }
 
    .play-icon {
+    display: none;
+}
+    .last-heard-songs-item:hover .play-icon {
+    display: inline;
     background-color: #1db954;
     border-radius: 50%;
-    cursor: pointer;
-   }
-   
+    }
    .last-heard-songs-item-container {
         display: flex;
         flex-direction: row;
@@ -213,6 +215,7 @@ a {
         border-radius: 10px;    
         font-size: 15px;
         width: 300px;
+        cursor: pointer;
     }
    .last-heard-songs-item-container {
        display: flex;
